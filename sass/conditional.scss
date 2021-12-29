@@ -1,0 +1,22 @@
+//font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.font {
+    font-family: 'roboto', sans-serif;
+}
+$type1: 'a';
+$type2: 'b';
+//conditional
+.font {
+    a {
+        @if((#{$type1} == $type1) and 1) {
+            color: red;
+        }
+        @else {
+            color: rgb(17, 219, 226);
+        }
+    }
+   
+}
+
+

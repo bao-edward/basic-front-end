@@ -1,0 +1,22 @@
+$text-color: blue;
+$background-color: gray;
+.class-parents {
+    color: yellow;
+    background-color: gray;
+
+    .class1 {
+        color: red;
+        background-color: greenyellow;
+
+        .class1-1 {
+            color: $text-color;
+            background-color: $background-color;
+        }
+    }
+    
+    .class2 {
+        color: $text-color;
+    }
+   
+
+}

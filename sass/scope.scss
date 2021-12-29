@@ -1,0 +1,25 @@
+$text-color: blue;
+
+.class-parents {
+    color: yellow;
+
+    .class1 {
+        $background-color: black !global;
+        color: red;
+        background-color: $background-color;
+        font: {
+            size: 100px;
+            weight: 600;
+        }
+
+        .class1-1 {
+            color: $text-color;
+        }
+    }
+    .class2 {
+        color: $text-color;
+        background-color: $background-color;
+    }
+   
+
+}

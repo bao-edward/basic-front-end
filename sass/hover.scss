@@ -1,0 +1,16 @@
+.class-parents {
+    color: yellow;
+    .class1 {
+        color: red;
+        .class1-1 {
+            color: green;
+        }
+    }
+    .class1:hover {
+        .class1-1 {
+            color: pink;
+        }
+    }
+   
+
+}

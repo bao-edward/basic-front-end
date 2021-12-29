@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>form</h1>
+    <form action="https://www.facebook.com/baohoang041199/" method="">
+        <!-- text -->
+        <label for="username">Username:</label>
+        <input type="text" name="Username" id="username" placeholder="Username" autofocus>
+        <label for="password">Password</label>
+        <input type="password" name="Password" id="password"placeholder="Password" ><br><br>
+
+        <!-- radio -->
+        <label for="">Gender:</label><br>
+        <label for="male">male</label>
+        <input type="radio" value="male" id="male" name="gender">
+        <label for="female">female</label>
+        <input type="radio" value="female" id="female" name="gender" checked><br><br>
+
+        <!--  checknox -->
+        <label for="">Hobbies: </label>
+        <input type="checkbox" name="hobbies[]" value="readbook" id="readbook">
+        <label for="readbook">Readbook</label>
+        <input type="checkbox" name="hobbies[]" value="sleep" id="sleep">
+        <label for="sleep">Sleep</label>
+        <input type="checkbox" value="sport" name="hobbies[]" id="sport" checked>
+        <label for="sport">Sport</label><br><br>
+
+        <!-- select date -->
+        <label for="">Birthday: </label>
+        <select name="day" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <select name="month" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <select name="year" id="" size="">
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+        </select><br><br>
+
+        <!-- list box -->
+        <label for="">Posittion:</label>
+        <select name="position" id="" size="2" multiple="">
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="employee">Employee</option>
+        </select><br><br>
+
+        <!-- textarea -->
+        <label for="">Note:</label>
+        <textarea name="note" id="" cols="50" rows="5"></textarea><br><br>
+
+        <!-- submit input/button -->
+        <input type="submit" value="submit">
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
